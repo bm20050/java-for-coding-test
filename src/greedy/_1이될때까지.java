@@ -1,6 +1,5 @@
 package greedy;
 
-import java.security.KeyStore;
 import java.util.Scanner;
 
 public class _1이될때까지 {
