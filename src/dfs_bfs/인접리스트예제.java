@@ -1,23 +1,24 @@
-package DFS_BFS;
+package dfs_bfs;
 
 import java.util.ArrayList;
 
-class Node {
-    private int index;
-    private int distance;
-
-    public Node(int index, int distance) {
-        this.index = index;
-        this.distance = distance;
-    }
-
-    public void show() {
-        System.out.print("(" + this.index + "," + this.distance + ") ");
-    }
-}
 public class 인접리스트예제 {
+    static class Node {
+        private int index;
+        private int distance;
+
+        public Node(int index, int distance) {
+            this.index = index;
+            this.distance = distance;
+        }
+
+        public void show() {
+            System.out.print("(" + this.index + "," + this.distance + ") ");
+        }
+    }
     // 행(Row)이 3개인 인접 리스트 표현
     public static ArrayList<ArrayList<Node>> graph = new ArrayList<ArrayList<Node>>();
+
     public static void main(String[] args) {
         // 그래프 초기화
         for (int i = 0; i < 3; i++) {
@@ -42,5 +43,4 @@ public class 인접리스트예제 {
             System.out.println();
         }
     }
-
 }

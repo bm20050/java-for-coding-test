@@ -1,4 +1,4 @@
-package DFS_BFS;
+package dfs_bfs;
 
 public class 무한히반복되는재귀함수예제 {
     private static void recursiveFunction() {

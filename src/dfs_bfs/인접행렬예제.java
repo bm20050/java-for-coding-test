@@ -1,4 +1,4 @@
-package DFS_BFS;
+package dfs_bfs;
 
 public class 인접행렬예제 {
 

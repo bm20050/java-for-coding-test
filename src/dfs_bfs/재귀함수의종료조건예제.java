@@ -1,4 +1,4 @@
-package DFS_BFS;
+package dfs_bfs;
 
 public class 재귀함수의종료조건예제 {
     public static void recursiveFunction(int i) {

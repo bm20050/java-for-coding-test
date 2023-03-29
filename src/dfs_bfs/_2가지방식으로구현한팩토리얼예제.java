@@ -1,4 +1,4 @@
-package DFS_BFS;
+package dfs_bfs;
 
 public class _2가지방식으로구현한팩토리얼예제 {
     // 반복적으로 구현한 n!
