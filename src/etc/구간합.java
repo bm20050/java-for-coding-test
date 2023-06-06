@@ -1,7 +1,5 @@
 package etc;
 
-import org.ietf.jgss.Oid;
-
 public class 구간합 {
     public static int n = 5; // 데이터의 개수 n과 데이터 입력받기
     public static int[] arr = {10, 20, 30, 40, 50};
